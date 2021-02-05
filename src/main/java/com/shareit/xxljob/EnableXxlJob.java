@@ -1,6 +1,5 @@
 package com.shareit.xxljob;
 
-import org.springframework.context.annotation.EnableAspectJAutoProxy;
 import org.springframework.context.annotation.Import;
 
 import java.lang.annotation.*;

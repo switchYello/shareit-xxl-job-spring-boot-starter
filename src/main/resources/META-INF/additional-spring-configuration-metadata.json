@@ -1,32 +1,37 @@
 {
   "properties": [
     {
+      "name": "xxl.job.enable",
+      "type": "java.lang.Boolean",
+      "description": "是否启用xxlJob功能."
+    },
+    {
       "name": "xxl.job.executor.admin-addresses",
-      "description": "xxlJob服务端地址，注意不要以`/`结尾"
+      "description": "xxlJob服务端地址，注意不要以`/`结尾."
     },
     {
       "name": "xxl.job.executor.app-name",
-      "description": "执行器名称，请使用项目名"
+      "description": "执行器名称，请使用项目名."
     },
     {
       "name": "xxl.job.executor.ip",
-      "description": "执行器ip，不填写可以自动推断"
+      "description": "执行器ip，不填写可以自动推断."
     },
     {
       "name": "xxl.job.executor.port",
-      "description": "执行器端口，填写0为自动推断"
+      "description": "执行器端口，填写0为自动推断."
     },
     {
       "name": "xxl.job.executor.access-token",
-      "description": "加密通信，内网使用可不填写"
+      "description": "加密通信，内网使用可不填写."
     },
     {
       "name": "xxl.job.executor.log-path",
-      "description": "日志存放地址"
+      "description": "日志存放地址."
     },
     {
       "name": "xxl.job.executor.log-retention-days",
-      "description": "日志存放天数"
+      "description": "日志存放天数."
     }
   ]
 }

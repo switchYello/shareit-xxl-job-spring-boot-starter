@@ -14,7 +14,7 @@ import org.springframework.context.annotation.Bean;
  */
 @EnableConfigurationProperties(XxlConfig.class)
 @ConditionalOnClass(XxlJobSpringExecutor.class)
-@ConditionalOnProperty(name = "xxl-job-enable", havingValue = "true", matchIfMissing = true)
+@ConditionalOnProperty(name = "xxl.job.enable", havingValue = "true", matchIfMissing = true)
 public class XxlJobConfiguration {
 
     private static Logger log = LoggerFactory.getLogger(XxlJobConfiguration.class);
